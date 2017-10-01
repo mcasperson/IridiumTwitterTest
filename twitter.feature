@@ -11,8 +11,8 @@ Feature: Post a Twitter message
   Scenario: Log In
     Given I open the page "https://twitter.com/login"
     And I wait "30" seconds for the "Username" textbox to be displayed
-    And I populate the "Username" textbox thing with "your_username"
-    And I populate the "Password" textbox thing with "your_password"
+    And I populate the "Username" textbox with "your_username"
+    And I populate the "Password" textbox with "your_password"
     And I click the "Log in" button
 
   Scenario: Send Tweet
